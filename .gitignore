@@ -1,3 +1,5 @@
+.ipy*
+**/.ipynb*
 ckpt
 image/
 __pycache__

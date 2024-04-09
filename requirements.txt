@@ -1,7 +1,9 @@
-torch==2.0.1
-torchaudio==2.0.2
-torchvision==0.15.2
+torch==2.1.1
+torchaudio==2.1.1
+torchvision==0.16.1
+torch-scatter==2.1.2
 torch-geometric
+spconv-cu117
 tensorboard
 tensorboardX
 einops
@@ -15,3 +17,5 @@ pyyaml
 h5py
 ninja
 open3d
+timm
+chardet

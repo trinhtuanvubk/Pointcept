@@ -1,0 +1,5 @@
+- Change code in line 132 at launch.py for using only the second gpu
+- Change batch_size to 4 in configs/s3dis/...
+
+- conda install cuda -c nvidia
+- conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=12.1 -c pytorch -c nvidia
