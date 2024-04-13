@@ -1,0 +1,1 @@
+bash scripts/test.sh -p python3 -g 1 -d s3dis -n s3dis-semseg-pt-v3m1-0-rpe 

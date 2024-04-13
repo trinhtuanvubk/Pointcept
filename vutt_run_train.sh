@@ -1,0 +1,1 @@
+bash scripts/train.sh -g 1 -d s3dis -c semseg-pt-v3m1-0-rpe -n semseg-pt-v3m1-0-rpe
