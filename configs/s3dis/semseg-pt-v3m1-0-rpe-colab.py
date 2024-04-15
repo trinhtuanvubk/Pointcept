@@ -1,7 +1,7 @@
 _base_ = ["../_base_/default_runtime.py"]
 
 # misc custom setting
-batch_size = 4  # bs: total bs in all gpus
+batch_size = 2  # bs: total bs in all gpus
 num_worker = 24
 mix_prob = 0.8
 empty_cache = True
@@ -66,7 +66,7 @@ param_dicts = [dict(keyword="block", lr=0.0006)]
 
 # dataset settings
 dataset_type = "S3DISDataset"
-data_root = "data/s3dis"
+data_root = "/content/s3dis"
 
 data = dict(
     num_classes=13,
